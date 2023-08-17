@@ -6,8 +6,8 @@ services:
     
   ui_test:
     build: ./ui-test
-    volumes:
-      - ./ui-test-report:/app/report
+    # volumes:
+    #   - ./ui-test-report:/app/report
 
   frontend:
     image: dulyasit/web:1.0
